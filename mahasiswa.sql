@@ -1,0 +1,12 @@
+CREATE DATABASE mahasiswa;
+
+USE mahasiswa;
+
+CREATE TABLE tbl_mahasiswa (
+	No INT NOT NULL AUTO_INCREMENT,
+	NRP VARCHAR(13) NOT NULL,
+	Nama VARCHAR(45),
+	Email VARCHAR(100),
+	Alamat VARCHAR(150),
+	PRIMARY KEY (No)
+) ENGINE = InnoDB;
